@@ -1,0 +1,10 @@
+CSSの一番最初に記述すること　サイト内共通フォントと、文字サイズ設定
+
+/* PC、スマホ共通スタイル */
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
