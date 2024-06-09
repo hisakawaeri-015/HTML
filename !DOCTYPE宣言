@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html lang="ja">
@@ -5,18 +6,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="ディズニー英語！！" />
-  <title>子供に一生モノの英語を！</title>
-  <link rel="stylesheet" href="CSSファイルのURL" />
+  <meta name="description" content="Cat Coffeeは自家焙煎コーヒー豆を届けるコーヒー豆屋さんです。" />
+  <title>Cat Coffee</title>
+  <link rel="stylesheet" href="syle.css" />
 </head>
 
 <body>
- <header>
-</header>
-<main>
-</main>
-<footer>
-</footer>
+  <header></header>
+  <main></main>
+  <footer></footer>
 </body>
 
 </html>
