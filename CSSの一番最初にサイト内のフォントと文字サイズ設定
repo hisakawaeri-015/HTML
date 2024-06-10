@@ -11,9 +11,9 @@ body {
  max-width: 1080px;
  margin: 0 auto 0 auto;
  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
- font-size: 15px;
+ ●font-size: 15px;
 }
 
 p {
-  font-size: 15px;
+  ●font-size: 15px;
 }
