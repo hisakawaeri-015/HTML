@@ -1,8 +1,17 @@
 CSSの一番最初に記述すること　サイト内共通フォントと、文字サイズ設定
 
-/* PC、スマホ共通スタイル */
+/*================
+PC、スマホ共通スタイル
+=================*/
+* {
+ box-sizing: border-box;
+}
+
 body {
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+ max-width: 1080px;
+ margin: 0 auto 0 auto;
+ font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+ font-size: 15px;
 }
 
 p {
