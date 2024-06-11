@@ -1,8 +1,12 @@
-<!-- PC用ナビゲーション -->
-     <nav id="nav-pc">
-       <ul>
-         <li><a href="index.html#concept">コンセプト</a></li>
-         <li><a href="index.html#product">商品</a></li>
-         <li><a href="index.html#company">会社概要</a></li>
-       </ul>
-     </nav>
+<header>
+    <!-- ロゴ -->
+    <a href="index.html" id="logo"><img src="images/logo-cat-coffee.png" alt="トップページに戻る"></a>
+    <!-- PC用ナビゲーション -->
+    <nav id="nav-pc">
+      <a href="index.html#concept">コンセプト</a>
+      <a href="index.html#product">商品</a>
+      <a href="index.html#company">会社概要</a>
+    </nav>
+  </header>
+  <main>
+    <!-- 記事 -->
