@@ -1,0 +1,32 @@
+<header>
+    <!-- ロゴ -->
+    <a href="index.html" id="logo"><img src="images/logo-cat-coffee.png" alt="トップページに戻る"></a>
+    <!-- PC用ナビゲーション -->
+    <nav id="nav-pc">
+      <a href="index.html#concept">コンセプト</a>
+      <a href="index.html#product">商品</a>
+      <a href="index.html#company">会社概要</a>
+    </nav>
+  </header>
+  <main>
+    <!-- 記事 -->
+
+↓ロゴじゃなくテキストの場合
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>
+        <a href="index.html" class="home">My Profile</a>
+      </h1>
+      
+      <!-- ナビゲーションメニュー -->
+      <nav>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
