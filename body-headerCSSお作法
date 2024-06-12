@@ -16,5 +16,5 @@
   justify-content: space-between;
   align-items: center;
   margin: 20px auto;
-  max-width: 960px;
+  max-width: 960px;(960が主流)
 }
