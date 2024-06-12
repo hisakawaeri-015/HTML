@@ -17,3 +17,22 @@ body {
 p {
   ●font-size: 15px;
 }
+
+
+/*================
+PC、スマホ共通スタイル
+=================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  margin: 0;
+}
