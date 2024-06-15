@@ -1,0 +1,18 @@
+ul {
+  list-style: none;
+
+viewport:デバイスの種類における表示領域→これをheadに書くことによって自動で見やすい調節がされる
+
+imgタグ:max-width:100%で親要素より大きくならない
+
+画面いっぱいの背景：background-size:cover
+
+max-width:736px　デスクトップで画面いっぱいに広がるのを防ぐ
+
+border-radius　四角を丸めるプロパティ
+
+headerをまとめているところに
+max-width:限度幅を設けることで大きい画面いっぱいに広がるのを防ぐ
+margin-auto　ボックスを中央に
+padding：狭い画面でも余白ができて見やすい
+
