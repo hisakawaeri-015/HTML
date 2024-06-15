@@ -1,0 +1,23 @@
+<main>
+  <article>
+    <section idかclassか>
+      <h2></h2>？<h3></h3>?classでまとめておこう！
+      <p>日々の料理レシピをまとめています。<br>
+      和食や洋食、中華、お菓子までいろいろな料理レシピをアップしていますので、<br>
+      みなさんの献立にお役立ててくださいね！</p>
+      <!-- ボタンなど -->
+      <div idかclass>
+        <a href="" class="btn"></a>
+      </div>
+    </section>
+  </article>
+</main>
+
+sectionにidかclassをつけたやつに
+max-widthをつけることで画面いっぱいに広がることを防ぐ
+
+h2/h3のclass
+fontsize
+text-aligh:center
+margin
+など書こう！
