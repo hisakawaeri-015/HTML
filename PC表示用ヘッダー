@@ -14,7 +14,7 @@
 ↓ロゴじゃなくテキストの場合
 <body>
   <header>
-    <div class="header-inner">
+    <div class="page-header">
       <h1>
         <a href="index.html" class="home">My Profile</a>
       </h1>
