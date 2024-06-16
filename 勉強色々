@@ -16,3 +16,17 @@ max-width:限度幅を設けることで大きい画面いっぱいに広がる�
 margin-auto　ボックスを中央に
 padding：狭い画面でも余白ができて見やすい
 
+
+.photo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.works-container {
+  width: 33.3%;
+  margin: 10px 0;
+  box-sizing: border-box;
+セクション内に中の要素を収める
+
+}
