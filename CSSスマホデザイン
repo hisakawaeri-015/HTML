@@ -1,8 +1,11 @@
 スマホデザインpx値
 
 
-/* 横幅が767pxまでの場合 */
-@media (max-width: 767px) {
+/* 画面幅が768px以上のとき */
+@media screen and (min-width: 768px) {
+  /* PC用のスタイルを指定する */
+}
+
   h1 {
     font-size: 28px;
   }
