@@ -1,0 +1,21 @@
+
+#sample{
+  max-width: 1000px;
+}
+@media (max-width: 1050px){
+  #sample{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 768px){
+  #sample{
+        
+  }
+}
+@media (max-width: 450px){
+  #sample{
+        
+  }
+}
