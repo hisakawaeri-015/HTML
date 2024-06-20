@@ -40,3 +40,5 @@ padding：狭い画面でも余白ができて見やすい
   max-width: 960px;
 }
 
+box-shadow: 2px 2px 4px gray;
+
