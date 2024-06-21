@@ -1,23 +1,4 @@
-
-<!DOCTYPE html>
-
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="Cat Coffeeは自家焙煎コーヒー豆を届けるコーヒー豆屋さんです。" />
-  <title>Cat Coffee</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header></header>
-  <main></main>
-  <footer></footer>
-</body>
-
-</html>
+------リセットCSS入ってるVer------
 
 <!DOCTYPE html>
 
@@ -28,6 +9,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="description" content="SocialTech" />
   <title>SocialTech</title>
+  <!-- リセットCSS -->
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <!-- CSS読み込み -->
   <link rel="stylesheet" href="style.css" />
 </head>
+<body>
+  <header></header>
+  <main></main>
+  <footer></footer>
+</body>
+
+</html>
+
+</html>
