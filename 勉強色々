@@ -55,3 +55,7 @@ order: 1;
     line-height: 50px;
 }
 line-heightとheightを同じ値に設定することで、テキストを垂直方向の中央に配置することができます。この方法は、一行のテキストを中央寄せする場合に特に有効です。
+
+a::after {
+  content: "→";
+}
