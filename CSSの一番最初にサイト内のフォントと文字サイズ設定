@@ -1,17 +1,19 @@
-@charset "UTF-8";
-
-html {
-font-size: 62.5%; /*標準サイズ*/
-}
 
 /* PC・スマホ共通スタイル */
 
-img {
-  max-width: 100%;
+@charset "UTF-8";
+
+html {
+  /*16px→10pxにする標準サイズ*/
+  font-size: 62.5%; 
 }
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
 }
 
 body {
@@ -26,6 +28,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 18px;
 }
+
 
 
 
