@@ -42,6 +42,10 @@ padding：狭い画面でも余白ができて見やすい
 
 box-shadow: 2px 2px 4px gray;
 
+border-spacing: 0;
+一行ごとに一本の線を引く指定
+
+
 order: 1;
 
 段落の一部のテキスト（まとまり）だけにCSSを適用させる場合はspanタグを使用します。 段落全体にCSSを適用させる場合はpタグを使用します
