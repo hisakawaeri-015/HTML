@@ -1,6 +1,15 @@
-home.phpは、Webサイトのトップページとして表示されるファイル
+1．トップページはhome.phpとして作成する
+2.トップページのテンプレートファイルの優先順位は、front-page.php> home.php> index.php
+3.header.phpとfooter.phpを切り出してhome.phpから呼び出す
 
 関数名	機能
 ●wp_head()：ヘッダー（header.php）を部品として再利用できるようにします。get_header()関数で呼び出せます。
+  <?php wp_head(); ?>
+</head>
+
 ●get_template_directory_uri()：テーマディレクトリ（index.phpやstyle.cssがあるディレクトリ）を取得します。
 画像やリンク先のパスとして利用します。
+
+●wp_footer()：フッター（footer.php）を部品として再利用できるようにします。get_footer()関数で呼び出せます。
+  <?php wp_footer(); ?>
+</body>
