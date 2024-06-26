@@ -15,3 +15,41 @@ PHPでコンテンツを処理
 Webサイトを「WordPress化」していきます。つまり、
 WordPressにテーマファイルとして認識させるために必要なテンプレートファイルと呼ばれるPHPファイルを作成します。
 さらに、PHPでWordPress関数を使用してコンテンツの動的処理をコーディングしていきます。
+
+WordPressのテーマとは、Webサイトのテンプレートのことです。HTMLやCSSをWordPressのテーマとして認識させることにより、オリジナルテーマを作成します。
+WordPressにテーマとして認識させる作業はシンプルで、難しい手順はありません。
+WordPressでは、テーマごとに格納されるフォルダが決められます。所定のフォルダ内に所定のファイルを配置すると、WordPressがテーマとして認識します。
+
+WordPressのテーマファイルは「wp-content\themes」で扱う
+
+項目	内容
+Description	テーマの説明文
+Theme Name	テーマの名前
+Theme URI	テーマのURL
+Version: 1.0.0	テーマのバージョン
+Author	テーマの作者
+Author URI	作者に関するWebサイトのURI
+
+/*
+Theme Name: SAMURAI UNIVERSITY
+Theme URI: https://www.sejuku.net/
+Description: SAMURAI ENGINEERのWordPress教材
+Version: 1.0.0
+Author: SAMURAI ENGINEER
+Author URI: https://www.sejuku.net/
+*/
+
+WordPressのテーマ作成は以下の手順で進める
+「wp-content\themes」直下に作成テーマ名のフォルダを作成
+WordPressテーマとして認識させる
+テーマフォルダ内にindex.phpとstyle.cssを作成
+テーマに最低限必要なファイルはindex.phpとstyle.cssの2つ
+WordPress管理画面からテーマを有効化
+
+（1）WordPressのエラーの確認方法
+以下の手順でWordPressデバッグモードを有効化します。
+wp-config.php内の
+define( 'WP_DEBUG', false );
+を以下に書き換えます。
+define( 'WP_DEBUG', true );
+開発が終了したらデバッグモードを無効に戻してください。
