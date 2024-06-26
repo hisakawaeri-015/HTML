@@ -21,6 +21,10 @@ index.php	Webサイトへのアクセスの起点
 
 ※wp-contentとwp-config.phpのみ
 
+WordPressテーマに最低限必要なファイルは、style.cssとindex.phpの2つです。
+この2つのファイルがあれば、WordPressがテーマとして認識します。
+つまり、HTMLなどで静的にコーディングをしたファイルをWordPress化するためには、
+コーディングした内容をstyle.cssとindex.phpに配置すれば良いのです。
 「WordPress化」とは、HTMLのWebサイトをWordPressテーマとして認識させることです。
 
 HTMLで作成したWebサイトをWordPress化する理由は、以下の3つです。
