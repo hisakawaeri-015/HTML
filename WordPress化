@@ -1,1 +1,6 @@
 home.phpは、Webサイトのトップページとして表示されるファイル
+
+関数名	機能
+●wp_head()：ヘッダー（header.php）を部品として再利用できるようにします。get_header()関数で呼び出せます。
+●get_template_directory_uri()：テーマディレクトリ（index.phpやstyle.cssがあるディレクトリ）を取得します。
+画像やリンク先のパスとして利用します。
