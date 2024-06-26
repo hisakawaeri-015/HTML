@@ -13,3 +13,9 @@
 ●wp_footer()：フッター（footer.php）を部品として再利用できるようにします。get_footer()関数で呼び出せます。
   <?php wp_footer(); ?>
 </body>
+
+●home_url()：ホームページ（トップページ）のURLを取得する関数です。
+
+header.phpはget_header()関数で呼び出す
+footer.phpはget_footer()関数で呼び出す
+home_url()関数を使ってパスを修正する
