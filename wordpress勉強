@@ -4,12 +4,12 @@ WordPressの場合は、データベースはMySQLという種類を、言語は
 WordPressによって生成されるWebページとファイル（テンプレートファイル）
 の対応関係や命名規則が決まっています。
 ★Webページ	♦テンプレートファイル
-★固定ページ	♦page.php
-★投稿詳細ページ	♦single.php
-★投稿一覧ページ	♦archive.php
-★検索結果ページ	♦search.php
-★404ページ	♦404.php
-
+★固定ページ♦page.php
+★投稿詳細ページ♦single.php
+★投稿一覧ページ♦archive.php
+★検索結果ページ♦search.php
+★404ページ♦404.php
+-------------------------------------------------------
 /wp-admin/	WordPress管理画面用ファイル
 /wp-includes/	WordPressで利用するクラスファイルなど
 ★/wp-content/	Webサイト表示のファイル
@@ -18,9 +18,9 @@ wp-content > plugins	インストールしたプラグイン
 wp-content > uploads	管理画面からアップロードした画像など
 ★wp-config.php	接続するデータベースの定義
 index.php	Webサイトへのアクセスの起点
-
-※wp-contentとwp-config.phpのみ
-
+※いじるのはwp-contentとwp-config.phpのみ
+※WordPressのテーマファイルは「wp-content\themes」で扱う
+-------------------------------------------------------
 WordPressテーマに最低限必要なファイルは、style.cssとindex.phpの2つです。
 この2つのファイルがあれば、WordPressがテーマとして認識します。
 つまり、HTMLなどで静的にコーディングをしたファイルをWordPress化するためには、
