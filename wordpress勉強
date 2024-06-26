@@ -1,1 +1,17 @@
 「WordPress化」とは、HTMLのWebサイトをWordPressテーマとして認識させることです。
+
+HTMLで作成したWebサイトをWordPress化する理由は、以下の3つです。
+Webサイトの更新が楽にできる
+複数人で同じ管理を楽にできる
+動的な内容の表示が手軽に行える
+
+WordPressでのWebサイト作成は、以下の流れで行います。
+デザイン作成
+HTML/CSS/JavaScriptでコーディング
+WordPress開発環境の構築
+「2. 」でコーディングしたWebサイトをWordPress化
+PHPでコンテンツを処理
+
+Webサイトを「WordPress化」していきます。つまり、
+WordPressにテーマファイルとして認識させるために必要なテンプレートファイルと呼ばれるPHPファイルを作成します。
+さらに、PHPでWordPress関数を使用してコンテンツの動的処理をコーディングしていきます。
