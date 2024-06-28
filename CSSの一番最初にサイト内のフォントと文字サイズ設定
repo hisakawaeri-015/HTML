@@ -20,6 +20,7 @@ body {
   max-width: 1080px;
   padding: 0px;
   margin: 0 auto;
+  letter-spacing: .05em;
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", "sans-serif";
 }
 
