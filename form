@@ -12,3 +12,14 @@
      <input type="radio" name="area" value="osaka">大阪府
 </form>
 <button id="area-btn">値の取得</button>
+------------------------------------------------------
+チェックボックス
+<form name="osForm">
+     <label>利用したことのあるOSを選択してください</label><br>
+     <input type="checkbox" name="os" value="windows">Windows
+     <input type="checkbox" name="os" value="macos">macOS
+     <input type="checkbox" name="os" value="linux">Linux
+     <input type="checkbox" name="os" value="ios">iOS
+     <input type="checkbox" name="os" value="android">Android
+</form>
+<button id="os-btn">値の取得</button>
