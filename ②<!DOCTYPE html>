@@ -1,0 +1,18 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+viewportとは、PCやモバイル（スマホ、タブレット）といったデバイスごとにコンテンツの表示領域を設定するためのHTML属性値
+（meta要素のname属性の属性値）のことです。直訳すると「表示領域」を意味し、読み方は「ビューポート」です。
+このviewport（meta viewport）を設定してうまくレスポンシブデザインにできれば、SEOへの良い影響が期待できます。
+この記述がGoogleで推奨されてる基本的なviewportの設定方法です。
+
+OGPとは「Open Graph Protcol」の略で、FacebookやTwitterなどのSNSでシェアした際に、
+設定したWEBページのタイトルやイメージ画像、詳細などを正しく伝えるためのHTML要素です。
+これを設定しておくと、SNS上でURLが共有された際にタイトルや画像、説明文などが表示されるようになり、
+ユーザーに対してページの内容を詳しく伝えることができます。
+
+<meta property="og:url" content=" ページの URL" />
+<meta property="og:type" content=" ページの種類" />
+<meta property="og:title" content=" ページの タイトル" />
+<meta property="og:description" content=" ページの説明文" />
+<meta property="og:site_name" content="サイト名" />
+<meta property="og:image" content=" サムネイル画像の URL" />
