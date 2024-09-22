@@ -12,6 +12,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- Javascript読み込み -->
   <script src="js/script.js" defer></script>
+　<!-- ファビコン -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
   
 </head>
 <body>
