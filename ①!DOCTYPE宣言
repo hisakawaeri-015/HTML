@@ -1,25 +1,20 @@
-------リセットCSS入ってるVer------
-
 <!DOCTYPE html>
-
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="SocialTech" />
-  <title>SocialTech</title>
+  <title>タイトルが入ります</title>
   <!-- リセットCSS -->
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <!-- CSS読み込み -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Javascript読み込み -->
+  <script src="js/script.js" defer></script>
+  
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  
 </body>
-
-</html>
-
 </html>
